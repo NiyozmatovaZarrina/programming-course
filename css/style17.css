@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  header {
+    background-color: rgb(207, 171, 199);/* ранги хидер*/
+  }
+  nav {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow:hidden;/*шапка*/
+  }
+  .logo-box {
+    float: left;
+    margin-left: 25px;/*шапка*/
+  }
+  .logo {
+    margin: 0;
+    height: 70px;
+    text-align: center;/*кисми расми шапка*/
+  }
+  ul {
+    margin: 0;
+    margin-right: 25px;
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    height: 75px;
+    line-height: 70px;/*меню дар мобайн*/
+    text-align:center;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;/*дизайни ссылка*/
+  }
+  li a {
+    color: #868686;
+    text-transform: uppercase;/*ссылка*/
+  }
+  li {
+    display: inline-block;
+    margin-left: 25px;
+    transition: .5s linear;
+  }
+ /* li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+  }
+  li a:hover:after{
+    width: 100%;
+  }*/
+  @media screen and (max-width:574px) {
+    .logo-box {
+      float: none;
+      margin: 0 auto;
+    }
+    ul {
+      float: none;
+       margin: 0 25px;
+      }
+   li:first-of-type {margin-left:0}
+  }
+  
+  @media screen and (max-width:493px) {
+  nav {
+    overflow: visible
+  }
+  ul {
+    height: auto;
+    margin: 25px 25px 0 25px;
+    line-height: 50px;
+  }
+  li {
+    display: block;
+    margin: 0;
+  }
+  li:hover {
+    background: rgba(0,0,0,.1)
+  }
+  li a:after {
+    content: none;
+  }
+  .logoo{
+    width:400px;
+    height: 300px;
+  }
+  }/*адаптивный*/
+  .blokiykum{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width:1400px;
+    height: 800px;
+background-image: url(https://img.freepik.com/premium-photo/beautiful-woman-in-winter-thick-warm-robe-is-sitting-and-neatly-folding-bed-linens-and-white-bath-towels-organizing-and-sorting-clean-laundry-organic-and-natural-cotton-textile-manufacture_226903-452.jpg?w=2000);
+}
+.domohoz{
+  background-color: rgb(131, 71, 133,0.4);
+}
+.qicmaavval{
+    background-color: rgb(131, 71, 133,0.4);
+    font-size: 40px;
+    align-items: center;
+    flex-direction: center;
+    display:center;
+    text-align: center;      
+       }  
+h1{color: rgb(46, 38, 38);
+}
+h3{color: rgb(44, 37, 37);
+}
+.qicmaidu {
+    background-color: rgb(231, 208, 208);
+    width:1400px;
+    height: 700px;
+}
+p{
+    font-size: 20px;    
+    color: rgb(56, 55, 55); 
+    text-align: center;
+} .blokice{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width:1400px;
+  height: 700px;
+background-color: grey;
+background-image: url(https://www.crushpixel.com/big-static18/preview4/asian-woman-programmer-typing-source-3073138.jpg);
+}
+.size a{color: #332929;  
+}
+.kursi{  
+  align-items: center;
+  justify-content:space-around; 
+font-size: 30px;
+  flex-direction: column;
+      display:left;
+      text-align: left;
+      margin: 15px;
+      background-color: rgba(226, 223, 223, 0.4);
+ 
+    }   
+
+.blokho{
+  background-color: rgb(150, 39, 39,0);
+  width:400px;
+  height: 350px;
+font-size: 20px;
+align-items: center;
+  flex-direction:column;
+      display:inline-block;
+      text-align: center;
+    justify-content:space-between;   
+}
+
+.blokichor{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;  
+  flex-direction:row;
+  width:1400px;
+  height: 800px;
+  background: linear-gradient(to right, rgb(212, 189, 189) 50%, rgb(231, 219, 219) 50%); 
+}
+.qicmi4{  
+  align-items: center;
+  flex-direction: column;
+  display:center;
+  text-align: center; 
+
+}
+.choum{
+  font-size: 40px;
+  
+}
+/*
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.itc-slider__items {
+  counter-reset: slide;
+}
+
+.itc-slider__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  counter-increment: slide;
+  height: 250px;
+  position: relative;
+}
+
+.itc-slider__item::before {
+  content: counter(slide) "/5";
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+  display: block;
+}*/
+
+.blokipang{
+  background-color: rgb(231, 219, 219);  
+    display: inline-block;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction:column;
+    width:1400px;
+    height: 700px;
+    padding-left: 150px;
+  }
+.yk{
+  background-color: rgb(177, 77, 152,0);
+  width:350px;
+  height: 200px;
+font-size: 20px;
+align-items: center;
+  flex-direction:column;
+      display:inline-block;
+      text-align: center;
+    justify-content:space-between;  
+}
+h3.animat {
+  animation-duration: 6s;
+  animation-name: slidein;
+  /*animation-iteration-count:infinite;такроркунии матн*/
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 101%;
+    width: 500%;
+  }
+
+  to {
+
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h2{
+  text-align: center;
+  margin: 3%;
+  padding: 3%;
+  color:#0c0b0c;
+}
+h6{
+  color:#0c0b0c;
+  font-size: 25px;
+}
+img{
+  border-radius: 35px; /* Радиус скругления */
+}
+.foto{
+  border-radius: 50px; /* Радиус скругления */
+}
+.blokishash{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width:1400px;
+  height: 700px;
+background-color: grey;
+background-image: url(https://oir.mobi/uploads/posts/2021-04/1618352034_1-oir_mobi-p-tsveti-minimalizm-tsveti-krasivo-foto-1.jpg);
+}
+.shash{
+  font-size: 70px;
+  text-align: center;
+
+}
+.otziv{
+ padding-inline-end: 5%;
+}
+.blokihft{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+  width:1400px;
+  height: 700px;
+background-color: grey;
+background-image: url(https://pixel-shot.com/get_image/i-5914924-0.JPG);
+}
+.footer{
+  background-color: rgb(207, 171, 199);
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+    display: flex;
+  align-items: center;
+  justify-content:space-around;  
+}
+.col-8{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding-left: 100px;
+}
+.colsocial{
+text-align: center;
+}
+.shifr{
+  font-size: 15px;
+}
+li.b{
+  text-align: center;  
+  display: inline-block;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction:column;
+}
+.size{
+  font-size: 45px;
+  text-align: center;
+  color: #302530;
+}
+.rasm{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  margin: 10px;
+}
+.btn-up {
+  /* фиксированное позиционирование */
+  position: fixed;
+  /* цвет фона */
+  background-color: #673ab7;
+  /* расстояние от правого края окна браузера */
+  right: 20px;
+  /* расстояние от нижнего края окна браузера */
+  bottom: 0;
+  /* скругление верхнего левого угла */
+  border-top-left-radius: 8px;
+  /* скругление верхнего правого угла */
+  border-top-right-radius: 8px;
+  /* вид курсора */
+  cursor: pointer;
+  /* отображение элемента как flex */
+  display: flex;
+  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+  align-items: center;
+  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+  justify-content: center;
+  /* ширина элемента */
+  width: 60px;
+  /* высота элемента */
+  height: 50px;
+}
+
+.btn-up::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-up:hover {
+    background-color: #512da8; /* цвет заднего фона при наведении */
+  }
+}
+.komanda{
+  font-size: 45px;    
+    color: black; 
+    text-align: center;
+}
+.textdom{
+  color: #0c0b0c;
+  font-size: 40px;
+  text-align: center;
+}
+.citata{
+  color: #0c0b0c;
+  font-size: 20px;
+  text-align: center;
+}
